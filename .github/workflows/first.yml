@@ -10,9 +10,9 @@ jobs:
     - name: testing with ssh connection
       uses: appleboy/ssh-action@master
       with:
-       # host: aggarwal-mayank-linux
+        host: aggarwal-mayank-linux
         username: mayank
-        key: ${{ secrets.ACTION_SECRET_KEY }}
+       # key: ${{ secrets.ACTION_SECRET_KEY }}
         port: 22
         script: |
           whoami
