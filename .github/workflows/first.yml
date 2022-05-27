@@ -12,7 +12,7 @@ jobs:
       with:
         host: aggarwal-mayank-linux
         username: mayank
-        key: ${{ ACTION_SECRET_KEY }}
+        key: ${{ACTION_SECRET_KEY}}
         port: 22
         script: |
           whoami
