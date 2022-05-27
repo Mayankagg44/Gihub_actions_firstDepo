@@ -7,7 +7,7 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-      -name: testing with ssh connection
+    - name: testing with ssh connection
       uses: appleboy/ssh-action@master
       with:
         host: aggarwal-mayank-linux
