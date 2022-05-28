@@ -16,6 +16,3 @@ jobs:
         port: 22
         script: |
           whoami
-          cd Gihub_actions_firstDepo
-          git pull origin master
-          git status
